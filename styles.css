@@ -1,0 +1,165 @@
+body {
+  background-color: #fcf9be;
+  font-family: "Vollkorn", serif;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* #495f57
+    #f5ce15 
+*/
+
+h1 {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 30px;
+  margin-top: 12px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.banner p {
+  color: white;
+  font-size: 1rem;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: justify;
+}
+
+.banner_2 p {
+  color: white;
+  font-size: 1rem;
+}
+
+h2,
+a {
+  text-decoration: none;
+  color: #f5ce15;
+  font-size: 1.5rem;
+}
+
+h2:hover {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 22rem;
+}
+
+nav {
+  background-color: #495f57;
+  height: 3.5rem;
+  border-radius: 0.75rem;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 16px;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+li a {
+  color: #f5ce15;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+li a:hover {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.banner {
+  display: flex;
+  background-image: url("banner.png");
+  height: 17.81rem;
+  width: 100%;
+  background-size: 100% 100%;
+  border-radius: 0.75rem;
+  margin-top: 1.87rem;
+  box-shadow: 10px 10px 16px #999999;
+}
+
+.banner article {
+  flex: 1;
+  padding: 40px;
+}
+
+.banner_2 {
+  display: flex;
+  margin-top: 1.78rem;
+  column-gap: 1rem;
+}
+
+.banner_2 article {
+  flex: 1;
+  background-color: #495f57;
+  border-radius: 0.75rem;
+  text-align: justify;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-shadow: 10px 10px 16px #999999;
+}
+
+.banner_2 img {
+  width: 100%;
+  height: 50%;
+}
+
+footer {
+  display: flex;
+  margin-top: 3rem;
+}
+
+footer div {
+  flex: 1;
+}
+
+div p {
+  text-align: end;
+}
+
+.hr_line {
+  background-color: black;
+  border: none;
+  height: 2px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+
+  header > img {
+    width: 100%;
+  }
+
+  nav {
+    height: 100%;
+    width: 100%;
+  }
+  nav li {
+    display: block;
+    width: 100%;
+  }
+
+  .banner {
+    width: 100%;
+    height: 100%;
+  }
+
+  .banner_2 {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
